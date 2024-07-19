@@ -37,24 +37,31 @@ After training, you can test the network by inputting an index (0 - 59999) to se
 
 ## Functions
 `initialize_weights_and_biases()`
+
 Initializes weights and biases for the input to hidden and hidden to output layer connections.
 
 `sigmoid(x)`
+
 Computes the sigmoid activation function.
 
 `forward_propagation(img, weights_input_to_hidden, weights_hidden_to_output, biases_hidden, biases_output)`
+
 Performs forward propagation through the network.
 
 `compute_error(output, label`
+
 Computes the mean squared error.
 
-`backpropagation(img, label, hidden_layer_output, output_layer_output, weights_hidden_to_output, biases_output, biases_hidden, weights_input_to_hidden)`
+`backpropagation(img, label, hidden_layer_output, output_layer_output, weights_hidden_to_output, biases_output, biases_hidden, weights_input_to_hidden)`i
+
 Performs backpropagation and updates weights and biases.
 
 `train(images, labels)`
+
 Trains the neural network using the training images and labels.
 
 `predict(img, weights_input_to_hidden, weights_hidden_to_output, biases_hidden, biases_output)`
+
 Predicts the class of a given image.
 
 ## Acknowledgments
