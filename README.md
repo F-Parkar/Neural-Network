@@ -52,7 +52,7 @@ Performs forward propagation through the network.
 
 Computes the mean squared error.
 
-`backpropagation(img, label, hidden_layer_output, output_layer_output, weights_hidden_to_output, biases_output, biases_hidden, weights_input_to_hidden)`i
+`backpropagation(img, label, hidden_layer_output, output_layer_output, weights_hidden_to_output, biases_output, biases_hidden, weights_input_to_hidden)`
 
 Performs backpropagation and updates weights and biases.
 
