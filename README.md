@@ -58,7 +58,7 @@ After training, you can test the network by inputting an index (0 - 59999) to se
   Predicts the class of a given image.
 
 ## Acknowledgments
-This project was inspired from the channel
+This project was inspired from the youtube channel: https://www.youtube.com/@BotAcademyYT
    
    
 
