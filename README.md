@@ -36,26 +36,26 @@ The script will train the neural network on the MNIST dataset for a specified nu
 After training, you can test the network by inputting an index (0 - 59999) to see the prediction for that image. Enter 'q' to quit.
 
 ## Functions
-- initialize_weights_and_biases()
-  Initializes weights and biases for the input to hidden and hidden to output layer connections.
+`initialize_weights_and_biases()`
+Initializes weights and biases for the input to hidden and hidden to output layer connections.
 
-- sigmoid(x)
-  Computes the sigmoid activation function.
+`sigmoid(x)`
+Computes the sigmoid activation function.
 
-- forward_propagation(img, weights_input_to_hidden, weights_hidden_to_output, biases_hidden, biases_output)
-  Performs forward propagation through the network.
+`forward_propagation(img, weights_input_to_hidden, weights_hidden_to_output, biases_hidden, biases_output)`
+Performs forward propagation through the network.
 
-- compute_error(output, label)
-  Computes the mean squared error.
+`compute_error(output, label`
+Computes the mean squared error.
 
-- backpropagation(img, label, hidden_layer_output, output_layer_output, weights_hidden_to_output, biases_output, biases_hidden, weights_input_to_hidden)
-  Performs backpropagation and updates weights and biases.
+`backpropagation(img, label, hidden_layer_output, output_layer_output, weights_hidden_to_output, biases_output, biases_hidden, weights_input_to_hidden)`
+Performs backpropagation and updates weights and biases.
 
-- train(images, labels)
-  Trains the neural network using the training images and labels.
+`train(images, labels)`
+Trains the neural network using the training images and labels.
 
-- predict(img, weights_input_to_hidden, weights_hidden_to_output, biases_hidden, biases_output)
-  Predicts the class of a given image.
+`predict(img, weights_input_to_hidden, weights_hidden_to_output, biases_hidden, biases_output)`
+Predicts the class of a given image.
 
 ## Acknowledgments
 This project was inspired from the youtube channel: https://www.youtube.com/@BotAcademyYT
