@@ -4,6 +4,8 @@ This project implements a simple neural network to classify handwritten digits f
 
 ## Project Structure
 ├── import_data.py
+
 ├── neural_network.py
+
 └── README.md
 
